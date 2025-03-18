@@ -1,10 +1,9 @@
-package com.ua.crow.cprint.device;
+package com.ua.crow.cprint.device.config;
 
+import com.ua.crow.cprint.device.BasicObject;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.Locale;
 
 @Getter
 @Setter

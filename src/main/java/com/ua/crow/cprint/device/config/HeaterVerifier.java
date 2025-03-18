@@ -1,20 +1,18 @@
-package com.ua.crow.cprint.device;
+package com.ua.crow.cprint.device.config;
 
+import com.ua.crow.cprint.device.BasicObject;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
-
-import java.util.Locale;
 
 @Getter
 @Setter
 @NoArgsConstructor
-public class HeaterVerifier extends   BasicObject{
-    private Float max_error = 120f;
-    private Integer check_gain_time = 20;
-    private Float hysteresis = 5f;
-    private Float heating_gain = 2f;
+public class HeaterVerifier extends BasicObject {
+    private Float max_error;
+    private Integer check_gain_time ;
+    private Float hysteresis;
+    private Float heating_gain;
 
 
     public HeaterVerifier(String id) {

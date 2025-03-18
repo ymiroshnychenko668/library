@@ -1,4 +1,4 @@
-package com.ua.crow.cprint.device;
+package com.ua.crow.cprint.device.config;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;

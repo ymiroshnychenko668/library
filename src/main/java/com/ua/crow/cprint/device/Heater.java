@@ -1,9 +1,9 @@
 package com.ua.crow.cprint.device;
 
+import com.ua.crow.cprint.device.config.HeaterSettings;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.io.Serializable;
 import java.util.function.Consumer;
 
 @Getter
